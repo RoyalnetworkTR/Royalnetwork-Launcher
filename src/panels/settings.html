@@ -1,0 +1,129 @@
+<div class="settings-content">
+    <div class="tabs-settings-btn">
+        <button class="tab-btn-css tab-btn active-tab-btn default-tab-btn">Hesaplar</button>
+        <button class="tab-btn-css tab-btn">Java</button>
+        <button class="tab-btn-css tab-btn">Çözünürlük</button>
+        <button class="tab-btn-css tab-btn">Başlatıcı</button>
+        <button class="tab-btn-css save-tabs-btn">Korumak</button>
+    </div>
+
+    <div class="tabs-settings-content active-tab-content">
+        <div class="center-align">
+            <button class="add-account">Bir hesap ekle</button>
+            <div class="accounts"></div>
+        </div>
+    </div>
+
+    <div class="tabs-settings-content">
+        <div class="settings-content-scroll">
+            <div class="title-settings">RAM'inizin parametresi.</div>
+            <div class="java-settings">
+                <div class="information">
+                    Oyununuza tahsis edilen RAM'in tanımı, daha büyük bir miktar oyununuzun performansını artıracaktır.
+                    Diğer uygulamalar.
+                    <br><br>
+                    <b>- Maksimum RAM: </b>, oyununuza tahsis edilen toplam RAM miktarını gösterir. Düzgün çalışabilmesi için PC'nizde bulunan toplam RAM miktarının% 50'sini aşmaması önerilir.Bilgisayarınız
+                    8GB'dan fazla RAM'de 3GB tahsis etmenizi öneririz.Bilgisayarınızda 4GB veya daha az varsa, 2GB'den fazla tahsis etmeyin. <br> <br>
+                    <b>- Minimum RAM: </b>, oyununıza başladığınızda tahsis edilen minimum RAM miktarını gösterir. Bu değer için 3GB'den fazla koymamanız önerilir.Tipik değer 1GB'dir.</div>
+                <div class="ram-info">
+                    <div class="memory-slider" min="0.5" max="8" step="0.5">
+                        <div class="slider-touch-left">
+                            <span value="0 Go"></span>
+                        </div>
+                        <div class="slider-touch-right">
+                            <span value="0 Go"></span>
+                        </div>
+                        <div class="slider-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="ram-info-block">
+                        <b> Toplam <span id="total-ram"> 0 gb </span> RAM var. </b> <br>
+                        <b> Toplam <span id="free-ram"> 0 Go </span> RAM mevcuttur. </b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title-settings">Java konumu.</div>
+            <div class="java-settings">
+                <div class="information">
+                    Başlatıcı, Java'nın bir açık sürümünü kullanır.<br> Bu sürüm <span class="info-path" > </span>dizininde. <br> ancak, Kendi yürütülebilir ürününüzü belirleyebilirsiniz.
+                </div>
+                <input type="text" class="path" disabled />
+                <button class="path-button">Değiştirici</button>
+                <button class="path-button-reset">Sıfırla</button>
+                <input type="file" class="path-file" accept="application/octet-stream" />
+            </div>
+
+            <div class="title-settings">Java argümanları parametreleri.</div>
+            <div class="java-settings">
+                <div class="information">
+                    Java argümanları, oyununuzun ayarlarını tanımlamak için kullanılır.
+                </div>
+                <input type="text" class="args-settings" placeholder="Bu parametrenin değiştirilmesi önerilmez." />
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs-settings-content">
+        <div class="center-page">
+            <div class="title-settings">Minecraft çözünürlük parametresi.</div>
+            <div class="java-settings">
+                <div class="information">
+                    Kişiselleştirilmiş bir çözünürlük tanımlayın veya ekranınızın boyutuna bağlı olarak listeden birini seçin.
+                </div>
+                <div class="input-size-content">
+                    <div class="input-size">
+                        <input type="text" class="width-size input-settings" disabled>
+                        <div class="size-cross"></div>
+                        <input type="text" class="height-size input-settings" disabled>
+                        <div class="select-wrap icon-monitor">
+                            <select id="select" class="select">
+                                <option disabled selected value style="display: none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <optgroup label="Oran 4:3">
+                                    <option value="640 x 480">640 x 480</option>
+                                    <option value="800 x 600">800 x 600</option>
+                                    <option value="1024 x 768">1024 x 768</option>
+                                    <option value="1280 x 960">1280 x 960</option>
+                                    <option value="1280 x 1024">1280 x 1024</option>
+                                </optgroup>
+                                <optgroup label="Oran 16:9">
+                                    <option value="854 x 480">854 x 480</option>
+                                    <option value="1280 x 720">1280 x 720</option>
+                                    <option value="1360 x 768">1360 x 768</option>
+                                    <option value="1600 x 900">1600 x 900</option>
+                                    <option value="1920 x 1080">1920 x 1080</option>
+                                </optgroup>
+                                <optgroup label="Oran 16:10">
+                                    <option value="1280 x 768">1280 x 768</option>
+                                    <option value="1280 x 800">1280 x 800</option>
+                                    <option value="1440 x 900">1440 x 900</option>
+                                    <option value="1600 x 1024">1600 x 1024</option>
+                                    <option value="1680 x 1050">1680 x 1050</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs-settings-content">
+        <div class="center-page">
+            <div class="title-settings">Başlatıcı parametresi.</div>
+            <div class="java-settings">
+                <div class="information"></div>
+            </div>
+
+            <div class="title-settings">Oyunun başlatılmasından sonra parametre.</div>
+            <div class="java-settings">
+                <div class="information"></div>            
+                <input type="checkbox" class="checkbox-settings" id="launcher-close"><label for="launcher-close"><div class="checkround"></div></label> Oyunu başlattıktan sonra başlatıcıyı kapatın.</br>
+                <input type="checkbox" class="checkbox-settings" id="launcher-close-all"><label for="launcher-close-all"><div class="checkround"></div></label> Başlatıcı kapalıysa oyunu kapatın.</br>
+                <input type="checkbox" class="checkbox-settings" id="launcher-open"><label for="launcher-open"><div class="checkround"></div></label> Oyunun Açıldıktan sonra başlatıcıyı açık tutun.
+            </div>
+        </div>
+    </div>
+</div>
