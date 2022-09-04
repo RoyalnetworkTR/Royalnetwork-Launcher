@@ -6,66 +6,66 @@ body:
   - type: markdown
     attributes:
      value: |
-      Un grand merci d'avance pour votre aide. Néanmoins, nous avons besoin d'un certain nombre d'informations, pour nous aider.
+      Yardımın için çok teşekkür ederim.Ancak, bize yardımcı olacak bir dizi bilgiye ihtiyacımız var.
   - type: checkboxes
     attributes:
-      label: "Liste des vérifications à faire avant de valider l'ouverture du signalement de bug"
-      description: Assurez que vous avez complété ce qui suit, dans le cas contraire, votre rapport peut être refusé
+      label: "Hata raporunun açılışını doğrulamadan önce yapılacak çeklerin listesi"
+      description: Raporunuz reddedilebilirse, aşağıdakileri tamamladığınızdan emin olun
       options:
-        - label: J'ai réussi à reproduire le bug sur le Selvania Launcher (sans mes modifications)
+        - label: Selvania fırlatıcısındaki hatayı yeniden üretmeyi başardım (değişikliklerim olmadan)
           required: true
-        - label: Mon code respecte la licence Creative Commons Zero v1.0 Universal
+        - label: Pzt Code Saygı La Lisans Creative Commons Zero V1.0 Universal
           required: true
-        - label: Mon code respecte les conditions d'utilisation du Selvania Launcher
+        - label: Kodum Selvania başlatıcısının kullanım koşullarına uygun
           required: true
-        - label: J'arrive à reproduire le bug sur la dernière version du Selvania Launcher
+        - label: Royalnetwork Launcher'ın en son sürümünde hatayı yeniden üretmeyi başardım
           required: true
   - type: dropdown
     attributes:
-      label: Système d'exploitation
+      label: İşletim sistemi
       options:
         - Windows
         - macOS
-        - Linux (Basé sur Debian/Ubuntu)
-        - Linux (Autres)
+        - Linux (Debian/Ubuntu'ya dayanarak)
+        - Linux (Diğerleri)
     validations:
       required: true
   - type: input
     attributes:
-      label: Version du système d'exploitation
-      placeholder: "Exemple: Windows 11 Professionnel 21H2 Build 22000.739"
+      label: İşletim sistemi sürümü
+      placeholder: "Örnek: Windows 11 Profesyonel 9: 14:00 22000.739"
     validations:
         required: true
   - type: input
     attributes:
-      label: Hash du commit sur lequel le bug est rencontré
+      label: Hatanın karşılaştığı karma iş
       placeholder: 84d7881b67ecf6088205eca6723bfb19bf2a5f0d
   - type: textarea
     attributes:
-      label: Comportement attendu
-      description: Une description de ce qui devrait se passer
-      placeholder: Le launcher devrait...
+      label: Beklenen davranış
+      description: Ne olması gerektiğinin bir açıklaması
+      placeholder: Başlatıcı olmalı ...
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Comportement actuel
-      description: Une description de ce qui se passe avec le bug
+      label: Mevcut davranış
+      description: Hatada neler olup bittiğinin bir açıklaması
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Instructions pour reproduire le but
+      label: Hedefi yeniden üretme talimatları
       placeholder: |
-        1. Ouvrir le launcher
-        2. Aller dans le menu xyz
-        3. Cliquer sur abc
+        1. Başlatıcıyı aç
+        2. XYZ menüsüne git
+        3. ABC'ye tıklayın
         4. Observer
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Notes additionnelles
-      placeholder: Détails supplémentaires concernant le bug, tout ce qui pourrait être utile
+      label: Ek Notlar
+      placeholder: Hata ile ilgili ek ayrıntılar, yararlı olabilecek her şey
     validations:
       required: false
