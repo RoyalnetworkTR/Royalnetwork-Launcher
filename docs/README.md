@@ -1,40 +1,40 @@
 <p align="center"><img src="../src/assets/images/icon.png" width="65%" height="65%" alt="icon-launcher"></p>
 
-<h1 align="center">Selvania Launcher</h1>
+<h1 align="center">Royalnetwork Launcher</h1>
 
 [<p align="center">
-<img src="https://img.shields.io/badge/build-Stable-orange.svg?style=social&logo=appveyor" alt="build">](https://github.com/luuxis/Selvania-Launcher/releases) 
-[<img src="https://img.shields.io/badge/version-1.0.2-orange.svg?style=social&logo=appveyor" alt="downloads">](https://github.com/luuxis/Selvania-Launcher/releases) 
-[<img src="https://img.shields.io/badge/plateforme-win,%20mac,%20linux-blue.svg?style=social&logo=appveyor" alt="stark">](https://github.com/luuxis/Selvania-Launcher/releases)
-<img src="https://img.shields.io/github/languages/code-size/luuxis/Selvania-Launcher?style=social&logo=appveyor" alt="size">
+<img src="https://img.shields.io/badge/build-Stable-orange.svg?style=social&logo=appveyor" alt="build">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases) 
+[<img src="https://img.shields.io/badge/version-1.0.2-orange.svg?style=social&logo=appveyor" alt="downloads">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases) 
+[<img src="https://img.shields.io/badge/plateforme-win,%20mac,%20linux-blue.svg?style=social&logo=appveyor" alt="stark">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases)
+<img src="https://img.shields.io/github/languages/code-size/barkeser2002/Royalnetwork-Launcher?style=social&logo=appveyor" alt="size">
 </p>
 
 
 ---
 
-**conditions d'utilisation**
-- Pour utiliser le code, vous devez faire un fork du projet.
-- Pour utiliser le code, votre code doit tout le temps être public.
+**koşullar**
+- Kodu kullanmak için bir proje çatalı yapmalısınız.
+- Kodu kullanmak için kodunuz her zaman herkese açık olmalıdır.
 
 ---
 
-**Cloner et installer les dépendances**
+** Klon ve bağımlılıkları takın **
 
 ```console
-> git clone https://github.com/luuxis/Selvania-Launcher.git
-> cd Selvania-Launcher
+> git clone https://github.com/barkeser2002/Royalnetwork-Launcher.git
+> cd Royalnetwork-Launcher
 > npm install
 ```
 ---
 
-**Lancer l'application**
+** Uygulamayı başlat **
 
 ```console
 > npm start
 ```
 ---
 
-**Création du build**
+** Yapının yaratılması **
 
 | Platform    | Command              |
 | ----------- | -------------------- |
@@ -44,35 +44,35 @@
 
 ---
 
-**<p align="center">Fonctionnalité du launcher.</p>**
+**<p align="center">Başlatıcı işlevselliği.</p>**
 
-- Mise à jour automatique.
+- Otomatik güncelleme.
 
-- Maintenance launcher.
+- Başlatıcı bakımı.
 
-- Maintenance message custom.
+- Özel mesaj bakımı.
 
-- Statut serveur complet.
+- Sunucu durumunu tamamlayın.
 
-- Authentification mojang.
+- Mojang kimlik doğrulaması.
 
-- Authentification Microsoft.
+- Microsoft kimlik doğrulaması.
 
-- Authentification crack.
+- Kimlik doğrulama çatlağı.
 
-- Accepte toutes versions de Minecraft 1.0 > 1.19.x (Forge, Fabric etc).
+- Minecraft 1.0> 1.19.x'in tüm sürümlerini kabul eder (Forge, üretici vb.).
 
 ---
-**<p align="center">Configurer votre launcher.</p>**
+**<p align="center">Başlatıcınızı yapılandırın.</p>**
 
 - [Doc ici](./wiki.md).
 
 ---
 
-[<p align="center"><img src="https://discordapp.com/api/guilds/819729377650278420/embed.png?style=banner4" alt="discord">](https://discord.gg/e9q7Yr2cuQ) 
+[<p align="center"><img src="https://discordapp.com/api/guilds/844239607033757770/embed.png?style=banner4" alt="discord">](https://discord.gg/ex7ZATCvpu) 
 ---
 
-[releases]: https://github.com/luuxis/Selvania-Launcher/releases 'releases'
-[build]: https://github.com/luuxis/Selvania-Launcher/releases 'build'
+[releases]: https://github.com/barkeser2002/Royalnetwork-Launcher/releases 'releases'
+[build]: https://github.com/barkeser2002/Royalnetwork-Launcher/releases 'build'
 
 
