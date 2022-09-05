@@ -22,23 +22,23 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Yapan..", "author": "Barkeser2002" },
-            { "message": "Hoşgeldiniz Açılıyor..", "author": "Barkeser2002" },
-            { "message": "Linux'un kemiği yok, ama bir çekirdek var.", "author": "Barkeser2002" }
+            { "message": "Merhaba..", "author": "Royalnetwork" },
+            { "message": "Hoşgeldiniz Başlatılıyor..", "author": "Royalnetwork" },
+            { "message": "Hey Naber, Birazdan açılıyorum...", "author": "Royalnetwork" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
         this.splashAuthor.children[0].textContent = "@" + splash.author;
-        await sleep(100);
+        await sleep(200);
         document.querySelector("#splash").style.display = "block";
-        await sleep(500);
+        await sleep(900);
         this.splash.classList.add("opacity");
-        await sleep(500);
+        await sleep(900);
         this.splash.classList.add("translate");
         this.splashMessage.classList.add("opacity");
         this.splashAuthor.classList.add("opacity");
         this.message.classList.add("opacity");
-        await sleep(1000);
+        await sleep(2000);
         this.maintenanceCheck();
     }
 
@@ -54,11 +54,11 @@ class Splash {
     }
 
     async checkUpdate() {
-        this.setStatus(`Güncelleme Arama ...`);
+        this.setStatus(`Güncelleme Aranıyor ...`);
         ipcRenderer.send('update-app');
 
         ipcRenderer.on('updateAvailable', () => {
-            this.setStatus(`Mevcut Güncelleme!`);
+            this.setStatus(`Güncelleme Mevcut..!`);
             this.toggleProgress();
         })
 
@@ -73,7 +73,7 @@ class Splash {
 
 
     startLauncher() {
-        this.setStatus(`Başlatıcının başlangıcı`);
+        this.setStatus(`Launcher Başlatılıyor`);
         ipcRenderer.send('main-window-open');
         ipcRenderer.send('update-window-close');
     }
@@ -82,7 +82,7 @@ class Splash {
         this.setStatus(`${text}<br>5s dur`);
         let i = 4;
         setInterval(() => {
-            this.setStatus(`${text}<br>Durdurmak ${i--}s`);
+            this.setStatus(`${text}<br>Durduruluyor ${i--}s`);
             if (i < 0) ipcRenderer.send('update-window-close');
         }, 1000);
     }
