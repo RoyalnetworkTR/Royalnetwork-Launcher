@@ -4,7 +4,7 @@
 
 [<p align="center">
 <img src="https://img.shields.io/badge/build-Stable-orange.svg?style=social&logo=appveyor" alt="build">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases) 
-[<img src="https://img.shields.io/badge/version-1.0.2-orange.svg?style=social&logo=appveyor" alt="downloads">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases) 
+[<img src="https://img.shields.io/badge/version-1.1.5-orange.svg?style=social&logo=appveyor" alt="downloads">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases) 
 [<img src="https://img.shields.io/badge/plateforme-win,%20mac,%20linux-blue.svg?style=social&logo=appveyor" alt="stark">](https://github.com/barkeser2002/Royalnetwork-Launcher/releases)
 <img src="https://img.shields.io/github/languages/code-size/barkeser2002/Royalnetwork-Launcher?style=social&logo=appveyor" alt="size">
 </p>
