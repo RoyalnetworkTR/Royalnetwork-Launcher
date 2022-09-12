@@ -105,7 +105,29 @@
     background-color: #006e47;
     box-shadow: 0 0 5px #006e47;
 }
-
+.reg-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+.reg-btn a {
+	text-decoration: none;
+	color: #121212;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:8px;
+	padding-top:8px;
+}
+.reg-btn:hover {
+    background-color: #006e47;
+    box-shadow: 0 0 5px #006e47;
+}
 .cancel {
     border: none;
     background-color: #ffffff00;
