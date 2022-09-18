@@ -110,6 +110,8 @@
     border: none;
     margin: 2% 0;
     height: 2em;
+    width: 100%;
+    text-align: center;
     background-color: #00bd7a;
     box-shadow: 0 0 5px #00bd7a;
     color: #121212;
