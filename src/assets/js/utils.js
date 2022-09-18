@@ -30,7 +30,7 @@ function addAccount(data) {
     div.classList.add("account");
     div.id = data.uuid;
     div.innerHTML = `
-        <img class="account-image" src="https://mc.royalnetwork.xyz/skin/${data.uuid}">
+        <img class="account-image" src="https://mc.royalnetwork.xyz/skin/${data.name}/100">
         <div class="account-name">${data.name}</div>
         <div class="account-uuid">${data.uuid}</div>
         <div class="account-delete"><div class="icon-account-delete icon-account-delete-btn"></div></div>
@@ -49,5 +49,5 @@ function accountSelect(uuid) {
 }
 
 function headplayer(pseudo) {
-    document.querySelector(".player-head").style.backgroundImage = `url(https://mc.royalnetwork.xyz/skin/${data.uuid})`;
+    document.querySelector(".player-head").style.backgroundImage = `url(https://mc.royalnetwork.xyz/skin/${pseudo}/100)`;
 }
